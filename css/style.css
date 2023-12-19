@@ -1,0 +1,988 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* wrapper start here */
+.wrapper{
+    max-width: 1120px;
+    margin: auto;
+}
+
+/* navbar start here */
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.nav_main{
+    width: 100%;
+}
+.nav_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* navbar logo start here */
+.nav_logo{
+    padding: 14px 0 11px;
+}
+
+/* navbar items start here */
+.nav_items{
+    padding: 17px 0 0 0 ;
+}
+.nav_items ul{
+    display: flex;
+}
+.nav_items li{
+    list-style-type: none;
+}
+.nav_items li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    padding: 21px;
+}
+.nav_items li a:hover{
+    background-color: chocolate;
+}
+
+/* header start here */
+header{
+    width: 100%;
+}
+
+/* header banner start here */
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_content{
+    width: 100%;
+    display: flex;
+}
+
+/* banner details start here */
+.banner_details{
+    width: 50%;
+}
+.banner_logo{
+    width: 30%;
+    margin-top: 135px;
+}
+.banner_details1{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 25px;
+}
+.banner_details2{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 25px;
+}
+.banner_details_btn{
+    background-color: transparent;
+    margin: 50px 0 135px;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.banner_details_btn:hover{
+    border-color: chocolate;
+    color: chocolate; 
+}
+
+/* banner form start here */
+.banner_form{
+    width: 50%;
+}
+.banner_form form{
+    background-color: white;
+    width: 55%;
+    float: right;
+    text-align: center;
+    border-radius: 3px;
+    margin: 154px 0;
+}
+.form_header{
+    padding: 15px 0px;
+    border-radius: 3px 3px 0 0;
+    background-color: rgb(182, 182, 182);
+    font-family: sans-serif;
+}
+.form_header span{
+    color: chocolate;
+}
+#name, #email, #password{
+    width: 80%;
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    margin: 5px 0;
+}
+#submit{
+    width: 100%;
+    border: none;
+    border-radius: 0 0 3px 3px;
+    padding: 15px 0;
+    color: white;
+    background-color: chocolate;
+}
+
+/* header content start here */
+.header_content{
+    width: 100%;
+    display: flex;
+}
+/* header details start here */
+.header_details{
+    width: 35%;
+}
+.header_details1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.header_details2{
+    font-size: 14px;
+    padding: 4px 0 12px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* header icons start here */
+.header_icons{
+    width: 65%;
+    padding: 15px 0 0 0 ;
+    float: right;
+}
+.header_icons a{
+    font-size: 50px;
+    text-align: center;
+    padding: 0 23px;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+/* section start here */
+/* section content1 start here*/
+.section_content1{
+    background-color: rgb(237, 237, 237);
+}
+
+/* section banner1 start here */
+.section_banner1{
+    width: 100%;
+    padding: 125px 0;
+    display: flex;
+}
+
+/* section banner1 table start hete */
+.section_banner1_tab{
+    width: 12%;
+}
+.section_banner1_tab table{
+    border: 2px solid;
+    width: 100%;
+    border: none;
+}
+.tab_th1{
+    padding: 45px 10px;
+    border-radius: 3px 3px 0 0;
+}
+.tab_tr1{
+    background-color: chocolate;
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.tab_th2{
+    padding: 45px 10px;
+}
+.tab_tr2{
+    background-color: rgba(0, 0, 0, 0.895);
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.tab_th3{
+    padding: 45px 10px;
+    border-radius: 0 0 3px 3px;
+}
+.tab_tr3{
+    background-color: rgba(0, 0, 0, 0.895);
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+/* section banner1 details start here */
+.section_banner1_details{
+    width: 58%;
+    padding:  0 110px;
+}
+.section_banner1_details1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.section_banner1_details2{
+    font-size: 14px;
+    padding: 40px 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+.section_banner1_details_btn{
+    background-color: chocolate;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 25px;
+    color: white;
+}
+.section_banner1_details_btn:hover{
+    background-color: rgba(0, 0, 0, 0.895);
+}
+
+/* section banner1 image start here */
+.section_banner1_img{
+    width: 30%;
+    margin: auto;
+}
+.section_banner1_img img{
+    width: 100%;
+}
+
+/* section content2 start here*/
+/* section banner2 start here */
+.section_banner2{
+    width: 100%;
+    display: flex;
+    padding: 70px 0 100px 0;
+}
+
+/* section banner2 image start here */
+.section_banner2_img{
+    width: 50%;
+}
+.section_banner2_img img{
+    width: 100%;
+}
+
+/* section banner2 details start here */
+.section_banner2_details{
+    width: 40%;
+    margin: auto;
+}
+.section_banner2_details1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.section_banner2_details1 span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: chocolate;
+}
+.section_banner2_details2{
+    font-size: 14px;
+    padding: 30px 0 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+.section_banner2_details_title{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.title_icon{
+    width: 15%;
+    /* padding: 4px; */
+}
+.title_icon i{
+    font-size: 15px;
+    color: chocolate;
+    border: 3px solid chocolate;
+    border-radius: 50%;
+    padding: 6px;
+}
+.title_content{
+    width: 85%;
+}
+.title_content1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.title_content2{
+    font-size: 14px;
+    padding: 4px 0 12px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* section content3 start here */
+.section_content3{
+    background-color: rgb(237, 237, 237);
+}
+
+/* section banner3 start here */
+.section_banner3{
+    width: 100%;
+    display: flex;
+    padding: 60px 0 90px 0;
+}
+
+/* section banner3 details start here */
+.section_banner3_details{
+    width: 50%;
+    padding: 50px 0 0 0;
+}
+.section_banner3_details1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.section_banner3_details1 span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: chocolate;
+}
+.section_banner3_details2{
+    font-size: 14px;
+    padding: 30px 0 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* section banner3 image start here */
+.section_banner3_img{
+    width: 50%;
+}
+.section_banner3_img img{
+    width: 100%;
+}
+
+/* section content4 start here */
+/* section banner4 start here */
+.section_banner4{
+    width: 100%;
+    text-align: center;
+}
+
+/* section banner4_1 start here */
+.section_banner4_1{
+    width: 100%;
+    padding: 90px 0;
+}
+.section_banner4_1 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.section_banner4_1 p span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: chocolate;
+}
+.section_banner4_1p{
+    font-size: 14px;
+    padding: 25px 0 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* section banner4_2 start here */
+.section_banner4_2{
+    width: 100%;
+    display: flex;
+    padding: 0 0 105px;
+}
+.section_banner4_21{
+    width: 33.33%;
+    padding: 0 20px;
+}
+.section_banner4_21 h1 i{
+    color: chocolate;
+    border: 3px solid chocolate;
+    border-radius: 100%;
+    padding: 15px;
+}
+.section_banner4_21_title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+.section_banner4_21_details{
+    font-size: 14px;
+    padding: 30px 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* section content5 start here */
+.section_content5{
+    background-color: rgb(237, 237, 237); 
+}
+
+/* section banner5 start here */
+.section_banner5{
+    width: 100%;
+    text-align: center;
+}
+
+/* section banner5_1 start here */
+.section_banner5_1{
+    width: 100%;
+    padding: 90px 0 60px;
+}
+.section_banner5_1 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.section_banner5_1 p span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: chocolate;
+}
+.section_banner5_1p{
+    font-size: 14px;
+    padding: 25px 0 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* section banner5_2 start here */
+.section_banner5_2{
+    width: 100%;
+    display: flex;
+    padding: 0 0 60px;
+}
+.section_banner5_21{
+    width: 30%;
+    margin-right: 5%;
+    padding-top: 28px;
+}
+.section_banner5_211{
+    background-color: rgba(0, 0, 0, 0.895);
+    border-bottom: 5PX solid chocolate;
+}
+.section_banner5_211 h1{
+    font-size: 20px;
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    border-bottom: 2px solid rgb(237, 237, 237);
+    padding: 10px;
+}
+.section_banner5_2111{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.section_banner5_211 p span{
+    font-size: 60px;
+}
+.section_banner5_2112{
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+.section_banner5_212{
+    background-color: white;
+}
+.section_banner5_212 p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+    padding: 8px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.section_banner5_22{
+    width: 30%;
+    margin-right: 5%;
+}
+.section_banner5_221{
+    background-color: rgba(0, 0, 0, 0.895);
+}
+.section_banner5_221 h1{
+    font-size: 20px;
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    border-bottom: 2px solid rgb(237, 237, 237);
+    padding: 10px;
+}
+.section_banner5_2211{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.section_banner5_221 p span{
+    font-size: 60px;
+}
+.section_banner5_2212{
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+.section_banner5_222{
+    background-color: white;
+}
+.section_banner5_222 h1{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(237, 237, 237);
+    background-color: chocolate;
+    padding: 8px;
+}
+.section_banner5_222 p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+    padding: 8px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.section_banner5_23{
+    width: 30%;
+    padding-top: 28px;
+}
+.section_banner5_231{
+    background-color: rgba(0, 0, 0, 0.895);
+    border-bottom: 5PX solid chocolate;
+}
+.section_banner5_231 h1{
+    font-size: 20px;
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    border-bottom: 2px solid rgb(237, 237, 237);
+    padding: 10px;
+}
+.section_banner5_2311{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.section_banner5_231 p span{
+    font-size: 60px;
+}
+.section_banner5_2312{
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+.section_banner5_232{
+    background-color: white;
+}
+.section_banner5_232 p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+    padding: 8px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+/* section content 6start here */
+/* section banner6 start here */
+.section_banner6{
+    width: 100%;
+}
+
+/* section banner6_1 start here */
+.section_banner6_1{
+    width: 100%;
+    padding: 90px 0 60px;
+    text-align: center;
+}
+.section_banner6_1 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.section_banner6_1 p span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: chocolate;
+}
+.section_banner6_1p{
+    font-size: 14px;
+    padding: 25px 0 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* section bannere6_2 start here */
+.section_banner6_2{
+    width: 100%;
+    padding: 0 0 75px;
+    display: flex;
+}
+.section_banner6_21{
+    width: 27%;
+    margin: 0 6% 0 3.5%;
+}
+.section_banner6_21p{
+    background-color: rgb(237, 237, 237);
+    border-radius: 3px;
+    padding: 20px;
+    z-index: -1;
+    position: relative;
+}
+.section_banner6_21p::after{
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: rgb(237, 237, 237);
+    left: 6%;
+    bottom: -10px;
+    transform: rotate(45deg);
+}
+.section_banner6_21_img{
+    width: 100%;
+    padding: 25px 0 0 0;
+    display: flex;
+}
+.section_banner6_21_avtar{
+    width: 20%;
+}
+.section_banner6_21_avtar img{
+    width: 100%;
+}
+.section_banner6_21_details{
+    width: 80%;
+    padding: 10px;
+}
+.section_banner6_21_details h1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.section_banner6_21_details p{
+    font-size: 14px;
+    color: rgb(148, 148, 148);
+}
+.section_banner6_22{
+    width: 27%;
+    margin: 0 6% 0 0;
+}
+.section_banner6_23{
+    width: 27%;
+    margin: 0 3.5% 0 0;
+}
+
+/* section content7 start here */
+.section_content7{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* section banner7 start here */
+.section_banner7{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0 0;
+}
+.section_banner7 h1{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.section_banner7 p span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+.section_banner7p{
+    font-size: 14px;
+    padding: 40px 0 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+.section_banner7_btn{
+    background-color: transparent;
+    margin: 50px 0 70px;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.section_banner7_btn:hover{
+    border-color: chocolate;
+    color: chocolate; 
+}
+
+/* section content8 start here */
+/* section banner8 start here */
+.section_banner8{
+    width: 100%;
+    text-align: center;
+}
+
+/* section banner8_1 start here */
+.section_banner8_1{
+    width: 100%;
+    padding: 90px 0 52px;
+}
+.section_banner8_1 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.section_banner8_1 p span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: chocolate;
+}
+.section_banner8_1p{
+    font-size: 14px;
+    padding: 25px 0 0 0;
+    font-family: sans-serif;
+    color: rgb(148, 148, 148);
+}
+
+/* section banner8_2 start here */
+.section_banner8_2{
+    width: 100%;
+}
+.form_msg{
+    width: 100%;
+    display: flex;
+}
+.form_msg1{
+    width: 50%;
+}
+#name_msg, #email_msg, #subject_msg, #message{
+    width: 80%;
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    margin: 5px 0;
+}
+.form_msg2{
+    width: 50%;
+}
+#submit_msg{
+    border: none;
+    border-radius: 3px;
+    padding: 12px 25px;
+    color: white;
+    background-color: chocolate;
+    margin: 25px 0 80px 0;
+}
+#submit_msg:hover{
+    background-color: black;
+}
+
+/* footer start here */
+footer{
+    background-color: black;
+}
+
+/* footer main start here */
+.footer_main{
+    will-change: 100%;
+    text-align: center;
+}
+
+/* footer content start here */
+/* footer icon start here */
+.footer_icons{
+    width: 100%;
+    padding: 12px 0 0 0;
+}
+.footer_icons a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* footer details start here */
+.footer_details{
+    width: 100%;
+}
+.footer_details p{
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 8px 0 12px 0;
+}
+
+
+@media screen and (max-width:768px) {
+    .wrapper{
+        max-width: 670px;
+    }
+    .nav_items{
+        display: none;
+    }
+    .header_icons a{
+        padding: 0 19.9px;
+    }
+    .banner_content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner_logo{
+        margin: 50px 0;
+    }
+    .banner_details1{
+        font-size: 32px;
+        margin: 0;
+    }
+    .banner_details_btn{
+        margin: 25px 0 50px;
+    }
+    .banner_details,
+    .banner_form{
+        width: 100%;
+        margin: auto;
+    }
+    .banner_form form{
+        width: 60%;
+        float: none;
+        margin: 30px auto;
+    }
+    .header_content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header_details,
+    .header_icons{
+        width: 100%;
+        margin: auto;
+    }
+    .section_banner1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 0 0;
+    }
+    .section_banner1_tab{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .section_banner1_details{
+        width: 100%;
+        padding: 0;
+        margin: 30px auto;
+    }
+    .section_banner1_img{
+        width: 80%;
+        margin: 30px auto;
+    }
+    
+    .section_banner2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 0 0;
+    }
+    .section_banner2_img,
+    .section_banner2_details{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section_banner3{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .section_banner3_details,
+    .section_banner3_img{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .section_banner3_details{
+        margin: 0;
+        padding: 0;
+    }
+    .section_banner4_1{
+        padding: 50px 0;
+    }
+    .section_banner4_2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0 50px;
+    }
+    .section_banner4_21{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .section_banner5_1{
+        padding: 50px 0;
+    }
+    .section_banner5_2{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .section_banner5_21,
+    .section_banner5_22,
+    .section_banner5_23{
+        width: 80%;
+        margin: 30px auto;
+        padding: 0;
+    }
+    .section_banner6_1{
+        padding: 50px 0 20px;
+    }
+    .section_banner6_2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .section_banner6_21,
+    .section_banner6_22,
+    .section_banner6_23{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .section_banner8_1{
+        padding: 50px 0 20px;
+    }
+    .form_msg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form_msg1,
+    .form_msg2{
+        width: 100%;
+        margin: auto;
+    }
+    #submit_msg{
+        margin: 20px 0 50px;
+    }
+}
+
+
+
+@media screen and (max-width:360px) {
+    .wrapper{
+        width: 300px;
+    }
+    .banner_form form{
+        width: 100%;
+    }
+
+}
